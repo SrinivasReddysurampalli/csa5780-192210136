@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int n,m,i,sum=0;
+	printf("enter the range in between n and m:");
+	scanf("%d %d",&n,&m);
+	for(i=n;i<=m;i++)
+	{
+	   if(i%2==0)
+	{
+		printf("%d,",i);
+		sum=sum+i;
+	}
+    }
+	printf("\n the sum of even numbers in between range is:%d\n",sum);
+	return 0;
+}
