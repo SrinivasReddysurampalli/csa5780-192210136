@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int num=123,rev=0,rem;
+while(num>0)
+{
+rem=num%10;
+printf("%d",rev);
+num=num/10
+return 0;
+}
