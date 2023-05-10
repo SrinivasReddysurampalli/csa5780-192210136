@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int num=123,sum=0,i;
+for(i=1;i<=num;i++)
+{
+sum=sum+i;
+}
+printf("%d",sum);
+reurn 0;
+}
