@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int n,i,sum=0,avg=0;
+	printf("enter the number:");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		printf("%d\n",i);
+	}
+	for(i=1;i<=n;i++)
+	{
+		sum=sum+i;
+	}
+	printf("\n the sum of the n numbers is:%d",sum);
+	avg=sum/n;
+	printf("%d",avg);
+	return 0;
+}
