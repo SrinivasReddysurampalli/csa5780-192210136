@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int a=5,b=6,temp=0;
+temp=a;
+a=b;
+b=temp;
+printf("a after the swapping the number is:",a);
+printf("b after swapping the number is:",b);
+return 0;
+}
